@@ -1,0 +1,93 @@
+<html>
+    <body>
+        <h1>Form Registration</h1>
+        <form action="http://www.example.com/login.php" method="get">
+            <label for="username">Username:</label>
+                <input type="text" name="username" required="required" maxlength="30" /><br />
+            <label for="password">Password:</label>
+                <input type="password" name="password" required="required" /> <br />
+            <input type="submit" value="Submit" />
+            <p>What do you think the website lacks of ?</p>
+            <textarea name="comments" cols="30" rows="5" placeholder="Enter your comments..."></textarea>
+            
+            <p>From these options below, which one is your operation system ?
+                <br />
+                <input type="radio" name="os" value="windows" /> Windows 
+                <input type="radio" name="os" value="mac" /> Mac
+                <input type="radio" name="os" value="linux" /> Linux 
+            </p>
+
+            <p>Please checklist programs you've installed:</p>
+                <fieldset>
+                    <legend>Programs</legend>
+                <input type="checkbox" name="programs" value="msoffice" /> Microsoft Office
+                <input type="checkbox" name="programs" value="line" /> LINE
+                <input type="checkbox" name="programs" value="discord" /> Discord 
+                <input type="checkbox" name="programs" value="steam" /> Steam
+            </fieldset>
+            <p>Where do you prefer to play games on ?</p>
+            <select name="platforms">
+                <option value="console">Console</option>
+                <option value="pc">PC</option>
+                <option value="switch">Nintendo Switch</option>
+            </select>
+            
+            <p>Do you play any of the following game genre ?</p>
+                <p>(You can select more than one option by holding down control on a PC
+                or command key on a Mac while selecting different options.)
+            </p>
+            <fieldset>
+                <legend>Game Genres</legend>
+            <select name="gamegenres" size="8" multiple="multiple">
+                <option value="rpg">RPG</option>
+                <option value="horror">Horror</option>
+                <option value="adventure">Adventure</option>
+                <option value="visualnovel">Visual Novel</option>
+                <option value="puzzle">Puzzle</option>
+                <option value="fps">First-Person Shooter</option>
+                <option value="action">Action</option>
+                <option value="battleroyale">Battle Royale</option>
+            </select>
+        </fieldset>
+            <p>Upload your profile picture here:</p>
+            <input type="file" name="user-picture" /><br />
+            <input type="submit" value="Upload" />
+
+            <p>Enter your Nickname here :</p>
+            <input type="text" name="nickname" />
+            <input type="image" src="https://freepngimg.com/download/submit_button/25541-9-submit-button-transparent.png" width="100" height="30" />
+
+            <br />
+            <button><img src="https://media.tenor.com/images/e40353b9a19f8adb026dcb081ba4a514/tenor.gif" alt="add" width="10" height="20" /> Add</button>
+            <input type="hidden" name="easteregg" value="easteregg" />
+
+            <br />
+            <p>Enter your personal data :</p>
+            <fieldset>
+            <legend>Personal Data</legend>
+            <label>Address: <input type="text" name="address" /></label>
+            <br />
+            Job :
+            <input id="siswa" type="radio" name="job" value="stu">
+            <label for="siswa">Student</label>
+            <input id="mahasiswa" type="radio" name="job" value="colstu">
+            <label for="mahasiswa">Scholar</label>
+            <input id="lainnya" type="radio" name="job" value="others">
+            <label for="lainnya">Others</label>
+            <input id="pengangguran" type="radio" name="job" value="nojob">
+            <label for="pengangguran">Unemployed</label>
+
+            <label for="birthday">Birth Date:</label>
+            <input type="date" name="birthdate" /><br><br>
+
+            <label for="email">Enter your email address here to subscribe to our newsletter:</label>
+            <input type="email" name="email" /><br><br>
+
+            <label for="website">Enter one of your social media link (facebook,instagram,twitter,etc.)</label>
+            <input type="url" name="website" /><br><br>
+
+            <input type="submit" value="Submit" />
+        </fieldset>
+        </form>
+    </body>
+</html>
