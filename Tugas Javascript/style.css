@@ -1,0 +1,16 @@
+body {
+    background-color: 
+}
+
+.center {
+    width: 400px;
+    margin: 0 auto;
+}
+
+input {
+    font-size: 1em;
+}
+
+button {
+    font-size: 1.5em;
+}
