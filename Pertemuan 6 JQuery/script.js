@@ -1,4 +1,4 @@
-const API_KEY = 'd17f7271bf99e9a9396960410bb2e041';
+const API_KEY = 'a8f1ae5427a5193c7433c539f7679126';
 
 // retrieve all movie genres when the document is ready
 var genres = {};
